@@ -876,6 +876,7 @@
 
 .category__heading {
     margin-top: 0;
+    margin-bottom: 8px;
     padding: 20px 20px 0 24px ;
     font-size: 1.6rem;
     font-weight: 600;
@@ -900,6 +901,10 @@
     font-size: 1.4rem;
     transition: right linear 0.1s;
     right: 0;
+}
+
+.category-item:first-child .category-item__link::before {
+    display: none;
 }
 
 .category-item__link::before {
